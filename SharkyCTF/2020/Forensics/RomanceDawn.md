@@ -11,7 +11,7 @@ ERROR: 7uffy.png
 <img src="../images/7uffy_pngcheck.png" width="400">
 </p>
 
-PNG files contain critical chucks within the binary, The header `IHDR`, The pallete `PLTE`, `IDAT` and footer `IEND` chunks. We can suspect that the task will want us to fix these chunks, and that the public chunk `EASY` has something to do with it.
+PNG files contain `critical chucks` within the binary, The header `IHDR`, The pallete `PLTE`, `IDAT` and footer `IEND` chunks. We can suspect that the task will want us to fix these chunks, and that the public chunk `EASY` has something to do with it.
 
 ## Fixing the image
 <p align="center">
