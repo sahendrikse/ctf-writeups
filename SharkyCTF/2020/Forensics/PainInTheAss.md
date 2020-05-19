@@ -6,6 +6,7 @@ On initial inspection, what stands out are the PGSQL protocol messages being sen
 <p align="center">
 <img src="../images/pa1n_wireshark.png" width="400">
 </p>
+
 Let's first filter simply by `PGSQL` packet, and spend a little time seeing what stands out if anything. Our first indication of something interesting can be seen as packet `13833`, a response that is different to most around it, giving the info `T/D/D/D/D/C/Z`, suggesting that there is data being sent back to the user. On inspection of this packet, we see the data being replied with is:
 ```
 USER-ALPHA: th3_fl4g_1s_n0t_h3r3	
